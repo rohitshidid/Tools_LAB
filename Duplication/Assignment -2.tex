@@ -1,0 +1,90 @@
+\documentclass[a4paper]{article}
+
+\usepackage{geometry} 
+\usepackage{amsfonts} 
+\usepackage{graphicx}
+\usepackage{pgf}
+\usepackage{pgfpages}
+\usepackage{xcolor}
+
+\title{
+	 College Of Engineering Pune\\
+	\small{(An Autonomous Institute of Govt. of Maharashtra)}\\
+	\large{Department Of Computer Engineering and Information Technology}	
+}
+\author{
+	\noindent{
+		\large{Programme: B.Tech (Computer Engineering)}
+	}
+}
+}
+\date{}	
+
+
+
+\pgfpagesdeclarelayout{boxed}
+{
+  \edef\pgfpageoptionborder{0pt}
+}
+{
+  \pgfpagesphysicalpageoptions
+  {%
+    logical pages=1,%
+  }
+  \pgfpageslogicalpageoptions{1}
+  {
+    border code=\pgfsetlinewidth{2pt}\pgfstroke,%
+    border shrink=\pgfpageoptionborder,%
+    resized width=.95\pgfphysicalwidth,%
+    resized height=.95\pgfphysicalheight,%
+    center=\pgfpoint{.5\pgfphysicalwidth}{.5\pgfphysicalheight}%
+  }%
+}
+
+\pgfpagesuselayout{boxed}
+
+\begin{document}
+\pagecolor{gray}
+\pagenumbering{gobble}
+
+\begin{minipage}{.83\textwidth}
+	\maketitle
+\end{minipage}
+\begin{minipage}{.1\textwidth}
+	\hfill{\includegraphics[width=0.8in]{./logo.png}}
+\end{minipage}
+
+\fcolorbox{blue}{blue}{\section*{ \textcolor{white}{ Programme Educational Objectives. \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ }}}
+
+\begin{enumerate}
+\item To create graduates with sufficient capabilities in computer engineering who can become researchers, entrepreneurs and software professionals to satisfy the needs of the core industry, research, academia and society at large.
+
+\item To provide students opportunities to learn the latest technology and trends in computer engineering and prepare them for lifelong learning process.
+
+\item To make the students aware of professional ethics of the software Industry, and prepare them with basic soft skills essential for working in community and professional teams.
+\end{enumerate} 
+
+
+\fcolorbox{blue}{blue}{ \section*{ \textcolor{white}{ Programme Outcomes.}\ \ \ \ \ \ \  \ \ \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }}
+
+\begin{enumerate}
+
+\item Graduates will demonstrate knowledge in fundamentals of theory of computation, programming, algorithms, hardware technology, systems software and networking.
+
+\item Graduates will have knowledge of the best practices in software engineering, project management and professional work environments.
+
+\item Graduates will be aware of professional ethics, environmental and sustainability issues.
+
+\item Graduates will demonstrate ability to design creative solutions to real life problems faced by the industry and society at large.
+
+\item Graduates will be able to communicate technical topics in written and verbal forms.
+
+\item Graduates will demonstrate ability to use the state of the art technologies and tools (including Free and Open Source Software tools) in developing software systems.
+
+\item Graduates will demonstrate good performance in the competitive examinations for higher education.
+
+\item Graduates will have ability for lifelong self-learning.
+
+\end{enumerate} 
+
+\end{document}
